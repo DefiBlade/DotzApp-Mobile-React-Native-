@@ -1,0 +1,54 @@
+.authentication-bg {
+    background-color: rgb(242, 237, 224);
+    /* background-color: rgb(236, 224, 206); */
+    /* background-color: rgb(211, 138, 80); */
+    background: linear-gradient(90deg, #E65C00 17.29%, #F9D423 100%);
+    /* background: url(../images/IMG_4936.jpg); */
+    background-size: cover;
+}
+.navbar-brand-box .logo.logo-dark {
+    /* position: absolute; */
+    left: 0;
+}
+.vertical-collpsed .navbar-brand-box .logo.logo-dark {
+    left: calc(50% - 15px);
+    top: calc(50% + 15px);
+}
+.logo-lg {
+    display: block;
+    width: 100%;
+}
+.logo-lg img {
+    width: 100%;
+    object-fit: contain;
+    padding: 0 20px 0 0;
+}
+
+.map-container {
+    width: 100%;
+    height: 600px;
+}
+.mapboxgl-control-container {
+    display: none;
+}
+
+.br-theme-fontawesome-stars-o .br-widget a.br-active:after,
+.br-theme-fontawesome-stars-o .br-widget a.br-fractional:after,
+.br-theme-fontawesome-stars-o .br-widget a.br-selected:after {
+    color: #f1b44c;
+}
+.br-theme-fontawesome-stars-o .br-widget a:after {
+    content: '\f005';
+    color: #d2d2d2;
+}
+
+@media (max-width:1200px) {
+    .authentication-bg {
+        background-position-x: 35%;
+    }
+}
+@media (max-width:1385px) {
+    .authentication-bg {
+        background-position-x: 30%;
+    }
+}
